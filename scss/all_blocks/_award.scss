@@ -1,0 +1,27 @@
+.award {
+    margin-bottom: 160px;
+
+
+    &__wrapper {
+        background-color: $peach;
+        border-radius: 15px;
+        padding-top: 145px;
+        padding-left: 95px;
+        padding-bottom: 145px;
+        background-image: url(./../images/avard-bg-fon.svg), url(./../images/award-bg-tel.png);
+        background-repeat: no-repeat;
+        background-position: top right, calc(100% - 98px) calc(100%);
+    }
+
+    &__heading {
+        max-width: 540px;
+        margin-bottom: 40px;
+        color: $white;
+    }
+
+    &__text {
+        max-width: 445px;
+        margin-bottom: 40px;
+        color: $white;
+    }
+}

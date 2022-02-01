@@ -1,0 +1,49 @@
+.button-dark{
+    max-width: 152px;
+    min-width: 152px;
+    min-height: 56px;
+    display: inline-block;
+    background: $white;
+    border-radius: 8px;
+    border: none;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $darkgrey;
+}   
+
+.button-dark:hover{
+    background: $lightpeach;
+    border-radius: 8px;
+    color: $white;
+}
+
+.button-light{
+    max-width: 152px;
+    min-width: 152px;
+    min-height: 56px;
+    display: inline-block;
+    border: none;
+
+    background: $peach;
+    border-radius: 8px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $darkgrey;
+    
+}
+
+.button-light:hover{
+    background: #FFAD9B;
+    
+}

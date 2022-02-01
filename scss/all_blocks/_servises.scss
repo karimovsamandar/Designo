@@ -1,0 +1,39 @@
+.servises {
+    margin-bottom: 380px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    &__item {
+        max-width: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align:center;
+        color: $darkgrey;
+    }
+
+    &__item + &__item{
+        margin-left: 30px;
+    }
+
+    &__image {
+        width: 202px;
+        height: 202px;
+        vertical-align: middle;
+        margin-bottom: 48px;
+    }
+
+    &__heading {
+        margin-bottom: 32px;
+    }
+
+
+}
