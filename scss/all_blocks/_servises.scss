@@ -1,6 +1,25 @@
 .servises {
     margin-bottom: 380px;
 
+    &__container {
+        position: relative;
+
+    &::before{
+        content: "";
+        display: block;
+        width: 1004px;
+        height: 596px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url(./../images/main-bg.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        transform: translate(165px, 274px) rotate(180deg);
+        z-index: -1;
+    }
+    }
+
     &__list {
         display: flex;
         flex-wrap: wrap;

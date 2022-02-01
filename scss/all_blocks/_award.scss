@@ -1,6 +1,24 @@
 .award {
     margin-bottom: 160px;
+    
+    &__container {
+        position: relative;
 
+    &::before{
+        content: "";
+        display: block;
+        width: 1004px;
+        height: 596px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-image: url(./../images/main-bg.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        transform: translate(-165px, 274px);
+        z-index: -1;
+    }
+    }
 
     &__wrapper {
         background-color: $peach;

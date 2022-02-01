@@ -1,5 +1,6 @@
 .body{
-    padding-top: 141px;
+    // padding-top: 141px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -15,9 +16,10 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 70px;
-        padding-top: 45px;
+        padding-bottom: 60px;
+        padding-top: 60px;
     }
+
     &__nav{
         color: #333136;
     }
@@ -26,8 +28,6 @@
         vertical-align: middle;
         width: 196px;
         height: 24px;
-        margin-right: 122px;
-
     }
 
     &__list {
@@ -45,38 +45,84 @@
         margin-left: 42px;
     }
 
+    &__btn {
+        display: none;
+    }
+    
 }
 
-@media only screen and (max-width:710px) {
+@media only screen and (max-width:650px) {
     .header{
+        position: relative;
 
-        &__container{
-            justify-content: center;
+        &__container {
+            padding-top: 35px;
+            padding-bottom: 35px;
         }
-
         
-    }
-    
-}
-@media only screen and (max-width:710px) {
-    .header{
-
-        &__container{
-            justify-content: center;
+        &__nav {
+            position: absolute;
+            display: none;
+            top: 100%;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            // opacity: 0.5;
+            width: 100vw;
+            height: calc(100vh - 100px);
+            z-index: 1;
         }
 
-        &__logo{
-            margin-bottom: 20px;
+        &--active &__nav {
+            display: block;
         }
-    }
-    
-}
-@media only screen and (max-width:708px) {
-    .header{
 
-        &__container{
-            justify-content: center;
+        &__list {
+            top: 100%;
+            left: 0;
+            background-color: red;
+            // opacity: 1;
+            width: 100%;
+            padding: 32px 24px;
+            z-index: 2;
         }
+
+        &__list {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &__nav-link {
+            color: white;
+            padding: 16px 0;
+        }
+
+        &__item + &__item {
+            margin-left: 0;
+        }
+        
+        &__btn {
+            display: block;
+            outline: none;
+            background: none;
+            border: none;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        &__btn-cross {
+            display: none;
+        }
+
+        &--active &__btn-burger {
+            display: none;
+        }
+
+        &--active &__btn-cross {
+            display: block;
+        }
+
     }
     
 }
