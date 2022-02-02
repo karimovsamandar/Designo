@@ -159,7 +159,6 @@ ul, ol {
 }
 
 .header {
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -183,7 +182,7 @@ ul, ol {
   padding-top: 60px;
 }
 
-.header__nav {
+.header__nav-link {
   color: #333136;
 }
 

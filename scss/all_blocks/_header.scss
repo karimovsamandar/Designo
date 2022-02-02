@@ -4,7 +4,7 @@
 }
 
 .header {
-    position: fixed;
+    // position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -19,11 +19,12 @@
         padding-bottom: 60px;
         padding-top: 60px;
     }
-
-    &__nav{
+    
+    &__nav-link{
         color: #333136;
-    }
 
+    }
+     
     &__logo {
         vertical-align: middle;
         width: 196px;
