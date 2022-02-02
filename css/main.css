@@ -393,7 +393,7 @@ ul, ol {
 }
 
 .courses__box:hover::before {
-  background-color: red;
+  background-color: #E7816B;
 }
 
 .courses__box:active::before {

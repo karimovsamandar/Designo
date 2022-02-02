@@ -1,4 +1,4 @@
-.courses {
+.bitmap {
     margin-bottom: 160px;
 
     &__container {
@@ -24,15 +24,6 @@
         position: relative;
     }
 
-    // &__box &__heading{
-    //     z-index: 999;
-    //     opacity: 100%;
-    // }
-
-    // &__box &__text{
-    //     z-index: 999;
-    //     opacity: 100%;
-    // }
 
     &__box{
         border-radius: 15px;
@@ -53,7 +44,7 @@
         }
         
         &:hover::before {
-            background-color: red;
+            background-color: #E7816B;;
         }
 
         &:active::before {
