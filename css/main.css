@@ -329,11 +329,11 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.courses {
+.bitmap {
   margin-bottom: 160px;
 }
 
-.courses__container {
+.bitmap__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,7 +346,7 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.courses__box-web {
+.bitmap__box-web {
   max-width: 541px;
   width: 100%;
   min-height: 640px;
@@ -372,13 +372,13 @@ ul, ol {
   position: relative;
 }
 
-.courses__box {
+.bitmap__box {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
 }
 
-.courses__box::before {
+.bitmap__box::before {
   content: "";
   position: absolute;
   display: block;
@@ -392,15 +392,15 @@ ul, ol {
   transition: all 0.3s ease;
 }
 
-.courses__box:hover::before {
+.bitmap__box:hover::before {
   background-color: #E7816B;
 }
 
-.courses__box:active::before {
+.bitmap__box:active::before {
   background-color: #d9ff00;
 }
 
-.courses__heading {
+.bitmap__heading {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
@@ -410,7 +410,7 @@ ul, ol {
   opacity: 100%;
 }
 
-.courses__link {
+.bimtap__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,18 +420,18 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.courses__text {
+.bimtap__text {
   padding-right: 21px;
   z-index: 999;
   opacity: 100%;
 }
 
-.courses__inner {
+.bimtap__inner {
   max-width: 541px;
   width: 100%;
 }
 
-.courses__box-app {
+.bimtap__box-app {
   max-width: 541px;
   width: 100%;
   min-height: 308px;
@@ -454,7 +454,7 @@ ul, ol {
   background-size: cover;
 }
 
-.courses__box-graphic {
+.bitmap {
   max-width: 541px;
   width: 100%;
   min-height: 308px;
