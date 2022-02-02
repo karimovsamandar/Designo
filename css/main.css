@@ -283,15 +283,15 @@ ul, ol {
   }
 }
 
-.award {
+.hero {
   margin-bottom: 160px;
 }
 
-.award__container {
+.hero__container {
   position: relative;
 }
 
-.award__container::before {
+.hero__container::before {
   content: "";
   display: block;
   width: 1004px;
@@ -307,7 +307,7 @@ ul, ol {
   z-index: -1;
 }
 
-.award__wrapper {
+.hero__wrapper {
   background-color: #E7816B;
   border-radius: 15px;
   padding-top: 145px;
@@ -318,13 +318,13 @@ ul, ol {
   background-position: top right, calc(100% - 98px) calc(100%);
 }
 
-.award__heading {
+.hero__heading {
   max-width: 540px;
   margin-bottom: 40px;
   color: #FFFFFF;
 }
 
-.award__text {
+.hero__text {
   max-width: 445px;
   margin-bottom: 40px;
   color: #FFFFFF;
