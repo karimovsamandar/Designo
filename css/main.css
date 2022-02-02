@@ -372,32 +372,32 @@ ul, ol {
   position: relative;
 }
 
-.courses__box:hover .courses__heading {
-  z-index: 999;
-  opacity: 100%;
-}
-
-.courses__box:hover .courses__text {
-  z-index: 999;
-  opacity: 100%;
-}
-
 .courses__box {
   border-radius: 15px;
+  overflow: hidden;
   position: relative;
 }
 
-.courses__box:hover::before {
+.courses__box::before {
   content: "";
   position: absolute;
-  background-color: #E7816B80;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  opacity: 0.8;
-  border-radius: 15px;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.courses__box:hover::before {
+  background-color: #E7816B;
+}
+
+.courses__box:active::before {
+  background-color: #d9ff00;
 }
 
 .courses__heading {
