@@ -24,33 +24,31 @@
         position: relative;
     }
 
-    &__box:hover &__heading{
-        z-index: 999;
-        opacity: 100%;
-    }
-
-    &__box:hover &__text{
-        z-index: 999;
-        opacity: 100%;
-    }
-
     &__box{
         border-radius: 15px;
+        overflow: hidden;
         position: relative;
         
-    }
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.4;
+            background-color: transparent;
+            transition: all 0.3s ease;
+        }
+        
+        &:hover::before {
+            background-color: #E7816B;;
+        }
 
-    &__box:hover::before {
-        content: "";
-        position: absolute;
-        background-color: #E7816B80;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-        opacity: 0.8;
-        border-radius: 15px;
+        &:active::before {
+            background-color: rgb(217, 255, 0)
+        }
     }
 
     &__heading {
