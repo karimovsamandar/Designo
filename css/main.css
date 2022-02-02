@@ -349,7 +349,7 @@ ul, ol {
 .bitmap__box-web {
   max-width: 541px;
   width: 100%;
-  min-height: 640px;
+  height: 640;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
