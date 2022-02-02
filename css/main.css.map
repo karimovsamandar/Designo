@@ -16,7 +16,8 @@
         "../scss/all_blocks/_bitmap.scss",
         "../scss/all_blocks/_servises.scss",
         "../scss/all_blocks/_project.scss",
-        "../scss/all_blocks/_footer.scss"
+        "../scss/all_blocks/_footer.scss",
+        "../scss/all_blocks/_hero-web.scss"
     ],
     "names": [],
     "file": "main.css"
