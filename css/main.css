@@ -329,11 +329,11 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.bitmap {
+.courses {
   margin-bottom: 160px;
 }
 
-.bitmap__container {
+.courses__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,7 +346,7 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.bitmap__box-web {
+.courses__box-web {
   max-width: 541px;
   width: 100%;
   height: 640;
@@ -372,13 +372,13 @@ ul, ol {
   position: relative;
 }
 
-.bitmap__box {
+.courses__box {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
 }
 
-.bitmap__box::before {
+.courses__box::before {
   content: "";
   position: absolute;
   display: block;
@@ -392,15 +392,15 @@ ul, ol {
   transition: all 0.3s ease;
 }
 
-.bitmap__box:hover::before {
+.courses__box:hover::before {
   background-color: #E7816B;
 }
 
-.bitmap__box:active::before {
+.courses__box:active::before {
   background-color: #d9ff00;
 }
 
-.bitmap__heading {
+.courses__heading {
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
@@ -410,7 +410,7 @@ ul, ol {
   opacity: 100%;
 }
 
-.bitmap__link {
+.courses__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,18 +420,18 @@ ul, ol {
   color: #FFFFFF;
 }
 
-.bitmap__text {
+.courses__text {
   padding-right: 21px;
   z-index: 999;
   opacity: 100%;
 }
 
-.bitmap__inner {
+.courses__inner {
   max-width: 541px;
   width: 100%;
 }
 
-.bitmap__box-app {
+.courses__box-app {
   max-width: 541px;
   width: 100%;
   min-height: 308px;
@@ -454,7 +454,7 @@ ul, ol {
   background-size: cover;
 }
 
-.bitmap__box-graphic {
+.courses__box-graphic {
   max-width: 541px;
   width: 100%;
   min-height: 308px;
