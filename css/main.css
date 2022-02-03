@@ -366,7 +366,7 @@ ul, ol {
       -ms-flex-pack: center;
           justify-content: center;
   margin-right: 30px;
-  background-image: url(./../images/web.jpg);
+  background-image: url(./../../images/bitmap-web.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -449,7 +449,7 @@ ul, ol {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 21px;
-  background-image: url(./../images/app.jpg);
+  background-image: url(./../../images/bitmap-app.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -471,7 +471,7 @@ ul, ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(./../images/graphic.jpg);
+  background-image: url(./../../images/bitmap-app.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
